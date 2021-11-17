@@ -1,0 +1,72 @@
+body
+{
+    text-align: center;
+}
+
+#image1 {
+    width: 40px;
+    height: 40px;
+}
+#image2 {
+    width: 60px;
+    height: 40px;
+}
+#image3 {
+    width: 60px;
+    height: 40px;
+}
+#McDonald {
+    float:left;
+}
+#Chick-Fil-A {
+    float:left;
+}
+#Diabetes {
+    float:left;
+    font-size: 20px;
+}
+#bgimage1{
+    width:100%;
+    height:70%;
+}
+.gallery-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The Picture Frame */
+  .gallery-frame {
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #333;
+    color: #d9d9d9;
+  }
+  
+  /* The Images */
+  .gallery-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.25s ease-in-out;
+  }
+  
+  .gallery-img:hover {
+    opacity: .7;
+  }
+  #backbutton {
+      float: left;
+  }
+  .modal-content { margin-top: 100px; } 
+  .img_modal { display: inline-block; } 
+  .p_modal { margin-top: 10px; } 
+  .modal-body { text-align: center }
+ 
+
+
+
